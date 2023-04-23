@@ -45,3 +45,22 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 # kkoisland-site
+```tsx
+// Creaet react app:
+npx create-react-app kkoisland-site --template typescript
+
+// github
+cd kkoisland-site
+git remote add origin git@github.com:kkoisland/kkoisland-site.git
+git branch -M main
+git push -u origin main
+
+// install webpack cli:
+touch webpack.config.js
+npm install react-redux
+npm i -D @types/react @types/react-dom // 型定義パッケージ
+npm install --save react-router-dom //react-routerも入っている
+npm install @fortawesome/react-fontawesome // Icons: Github, Twitter, LinkedIn
+npm install @fortawesome/fontawesome-svg-core // Icons: Github, Twitter, LinkedIn
+npm install @fortawesome/free-brands-svg-icons // Icons: Github, Twitter, LinkedIn
+```
