@@ -46,7 +46,8 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 # kkoisland-site
 ```tsx
-// Creaet react app:
+// creaet react app
+nvm use 18 // latestを使う
 npx create-react-app kkoisland-site --template typescript
 
 // github
@@ -55,7 +56,7 @@ git remote add origin git@github.com:kkoisland/kkoisland-site.git
 git branch -M main
 git push -u origin main
 
-// install webpack cli:
+// install
 touch webpack.config.js
 npm install react-redux
 npm i -D @types/react @types/react-dom // 型定義パッケージ
